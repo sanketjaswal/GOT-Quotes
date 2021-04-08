@@ -1,0 +1,100 @@
+body
+{
+    margin: 0px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+
+#container
+{
+    width: 52%;
+    margin: 30% auto 0px auto;
+    /* height: 5%; */
+    padding: 3px;
+    background-color:rgba(58, 57, 57, 0.493);   
+    border-radius: 20px;
+    border: 3.5px solid rgba(94, 93, 93, 0.034);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+#container:hover
+{
+    margin: 30.2% auto 0px auto;
+    background-color:rgba(58, 57, 57, 0.801);   
+    transition: .4s;
+}
+
+
+#Quote_holder
+{
+    width: 95%;
+    height: 50%;
+    /* background-color: aquamarine; */
+    padding: 0px;
+}
+
+#Character_holder
+{
+    width: 40%;
+    height: 15%;
+    margin: 0px 2.5%;
+    /* background-color: rgb(217, 255, 127); */
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#Quote
+{
+    color: rgba(224, 223, 223, 0.815);
+    margin: 0px;
+}        
+
+#Name
+{
+    color: rgba(224, 223, 223, 0.658);
+    font-style: italic;
+}
+
+.Button_holder
+{
+    padding: 3px;
+    margin: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-self: baseline;
+}
+
+.refresh_button
+{
+    padding: 3px 9px;
+    background-color:rgba(58, 57, 57, 0.493);   
+    border-radius: 10px;
+    color: rgba(224, 223, 223, 0.815);
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    border: 2px solid rgba(94, 93, 93, 0.034);
+}
+
+.refresh_button:hover
+{
+    background-color: rgba(8, 134, 165, 0.247);
+    color: white;
+    transition: .2s;
+    font-style: italic;
+}
+
+
+.refresh_button:active
+{
+    margin: 0px 4px 0px 0px;
+    background-color: rgba(41, 250, 41, 0.253);
+}
+
+
